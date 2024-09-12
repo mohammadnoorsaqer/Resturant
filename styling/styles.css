@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root
+{
+    --main-color:#588D12
+    
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 242, 242);
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+    
+}
+
+.btn-primary button
+{
+    background-color: var(--main-color);
+    border-radius: 16px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    /* width: 75px; */
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    /* font-weight: bold; */
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+.navigation .active
+{
+    color: #80A84A;
+}
+.navigation li:hover
+{
+    color: #80A84A;
+}
+ul li
+{
+    list-style: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+nav .navigation
+{
+    display: flex;
+    gap: 20px;
+}
+nav .navigation li
+{
+    display: flex;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.logo img
+{
+    height: 50px;
+    width: 50px;
+}
+.btn-primary.landing
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+}
+.btn-primary .second-btn 
+{
+    background-color: #FEFCFC;
+    color: #7E7D7D;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #96B76A;
+    text-align: center;
+}
+.container .text h1
+{
+font-weight: 400;
+margin-top: 1rem;
+
+}
+.text
+{
+    width: 650px;
+}
+.container .text p
+{
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.btn-primary .first-btn
+{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.landing-img img
+{
+    height: 350px;
+    width: 359px;
+    border: transparent;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.box .box-1 img
+{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+.box .box-1 .add-cart
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.box .box-1 h3
+{
+    font-weight: bold;
+}
+.box .box-1 .add-cart h1
+{
+    font-weight: bold;
+}
+.box .box-1 .add-cart .third-btn
+{
+    border: 3px solid #B9D09B;
+    border-radius: 15px;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer h1
+{
+    margin: 1rem;
+}
+.box .box-1 .icon
+{
+    color: rgb(241,187,87);
+    font-size: 30px;
+    
+}
